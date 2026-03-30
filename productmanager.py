@@ -13,6 +13,7 @@ class ProductManager:
     def display_info(self) -> str:
         return f"shopping history: {self.products}"
 
+
     def remove_product(self, product: Product) -> bool:
         return self.products.pop(product.name)
 
